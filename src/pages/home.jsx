@@ -4,6 +4,7 @@ import codegreen from "../assets/codegreen.png";
 import pikurslot from "../assets/pikurslot.png";
 import kapporet from "../assets/kapporet.png";
 import albix from "../assets/albix.png";
+import innobiz from "../assets/innobiz.png";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -83,12 +84,14 @@ const Home = () => {
       {/* Projects Grid */}
       <section className="px-8 lg:px-20 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {[ // Project Cards
-            { src: codegreen, title: "Codegreen", desc: "A software testing report generation interface.", link: "/pages/codegreen" },
-            { src: pikurslot, title: "Pikurslot", desc: "A clean dashboard UI for booking conference rooms.", link: "/pages/pikurslot" },
-            { src: kapporet, title: "Kapporet", desc: "An intuitive e-learning platform for student engagement.", link: "/pages/kapporet" },
-            { src: albix, title: "Albix", desc: "A responsive ERP dashboard for business operations.", link: "/pages/albix" },
-          ].map((project, index) => (
+          {[
+  { src: codegreen, title: "Codegreen", desc: "A software testing report generation interface.", link: "/pages/codegreen" },
+  { src: pikurslot, title: "Pikurslot", desc: "A clean dashboard UI for booking conference rooms.", link: "/pages/pikurslot" },
+  { src: kapporet, title: "Kapporet", desc: "An intuitive e-learning platform for student engagement.", link: "/pages/kapporet" },
+  { src: albix, title: "Albix", desc: "A responsive ERP dashboard for business operations.", link: "/pages/albix" },
+  { src: innobiz, title: "Innobiz", desc: "Card components for a company website’s project section.", link: "/pages/innobiz" },
+].map((project, index) => (
+
             <Link to={project.link} key={index} className="flex flex-col cursor-pointer">
               <div className="aspect-square overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
                 <img

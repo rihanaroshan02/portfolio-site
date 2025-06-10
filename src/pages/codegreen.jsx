@@ -26,9 +26,9 @@ const Codegreen = () => {
         {/* Description */}
         <div className="max-w-3xl mx-auto text-lg leading-relaxed text-gray-800 text-center mb-16">
           <p>
-            Codegreen was designed for a Dubai-based company named Codegreen, where
-            I built a software testing report generation web application...
-          </p>
+  Codegreen is a UI design project for a Dubai-based company, focused on a software testing report tool. I designed a clean, developer-friendly interface with both light and dark modes, including dashboard elements, typography, and a consistent visual system tailored to their brand.
+</p>
+
         </div>
 
         {/* Light Mode */}

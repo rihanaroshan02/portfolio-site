@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import codegreen from "../assets/codegreen.png";
 import pikurslot from "../assets/pikurslot.png";
 import kapporet from "../assets/kapporet.png";
-import albix from "../assets/Albix.png";
+import albix from "../assets/albix.png";
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);

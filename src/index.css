@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('/fonts/ppneuemontreal-book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('/fonts/ppneuemontreal-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* body {
+  font-family: 'PPNeueMontreal', Arial, sans-serif;
+}
+
+/* Optional: if you want a utility class for convenience */
+/* .font-sans {
+  font-family: 'PPNeueMontreal', Arial, sans-serif;
+} */ 
+
+

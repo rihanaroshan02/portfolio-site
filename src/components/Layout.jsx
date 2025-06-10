@@ -9,7 +9,10 @@ const Layout = ({ children }) => {
     <div className="min-h-screen bg-white text-black font-sans scroll-smooth">
       {/* Navbar */}
       <header className="flex justify-between items-center px-8 py-6">
-        <a href="#" className="text-3xl font-extrabold tracking-tight">R .</a>
+        <Link to="/" className="text-3xl font-extrabold tracking-tight" onClick={() => setMenuOpen(false)}>
+  R .
+</Link>
+
         <nav className="hidden md:flex space-x-8 text-lg font-medium">
           <a href="/#work" className="hover:text-gray-600">Work</a>
           <Link to="/about" className="block hover:text-gray-600" onClick={() => setMenuOpen(false)}>About</Link>
